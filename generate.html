@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generate Schedule - StudySync</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 1rem;
+    }
+
+    header, main {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .schedule-item {
+      background: #eef;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    #generate-btn {
+      padding: 0.6rem 1rem;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Generate Your Smart Schedule</h1>
+    <nav>
+      <a href="dashboard.html">← Back to Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Click the button below to generate a personalized study schedule based on your preferences and availability.</p>
+    <button id="generate-btn">Generate Best Schedule</button>
+
+    <div id="generated-schedule"></div>
+  </main>
+     <script src="js/app.js"></script>
+  <!-- <script src="js/generate.js"></script> -->
+</body>
+</html>
